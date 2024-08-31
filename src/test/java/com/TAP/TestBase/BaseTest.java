@@ -16,7 +16,8 @@ public class BaseTest {
 	public static Properties loc=new Properties();
 	public static FileInputStream fis;
 
-
+// it is applicable only for suite level.
+	
 	@BeforeSuite
 	public void BrowserSetup() throws Exception {
 
