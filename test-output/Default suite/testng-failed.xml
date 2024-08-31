@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TAP.DataDrivenTestCases.NewTest2">
+      <class name="com.TAP.DataDrivenTestCases.NewTest3">
         <methods>
-          <include name="f" invocation-numbers="1 2"/>
+          <include name="f"/>
           <include name="TearDown"/>
           <include name="BrowserSetup"/>
         </methods>
-      </class> <!-- com.TAP.DataDrivenTestCases.NewTest2 -->
+      </class> <!-- com.TAP.DataDrivenTestCases.NewTest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

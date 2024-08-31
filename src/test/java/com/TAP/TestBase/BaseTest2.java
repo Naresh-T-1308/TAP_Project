@@ -16,6 +16,7 @@ public class BaseTest2 {
 	public static WebDriver driver;
 	public static Properties config=new Properties();
 	public static Properties loc=new Properties();
+	public static Properties path=new Properties();
 	public static FileInputStream fis;
 
 
@@ -26,6 +27,8 @@ public class BaseTest2 {
 		config.load(fis);
 		fis= new FileInputStream(".\\src\\test\\resources\\properties\\loc.properties");
 		loc.load(fis);
+		fis= new FileInputStream(".\\src\\test\\resources\\properties\\excel_path.properties");
+		path.load(fis);
 
 		String browserName = config.getProperty("browser");
 
