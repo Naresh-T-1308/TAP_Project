@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TAP login successful...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-29T11:56:48 IST" name="Suite" finished-at="2024-08-29T11:56:50 IST" duration-ms="2088">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T11:56:48 IST" name="Test" finished-at="2024-08-29T11:56:50 IST" duration-ms="2088">
+      <class name="com.TAP.POMTestCases.PageOpening">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:com.TAP.POMTestCases.PageOpening@2473d930]" started-at="2024-08-29T11:56:30 IST" name="BrowserSetup" finished-at="2024-08-29T11:56:48 IST" duration-ms="17907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="TAP()[pri:0, instance:com.TAP.POMTestCases.PageOpening@2473d930]" started-at="2024-08-29T11:56:48 IST" name="TAP" finished-at="2024-08-29T11:56:50 IST" duration-ms="1956" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TAP login successful...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TAP -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.TAP.POMTestCases.PageOpening@2473d930]" started-at="2024-08-29T11:56:51 IST" name="TearDown" finished-at="2024-08-29T11:56:51 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.TAP.POMTestCases.PageOpening -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
