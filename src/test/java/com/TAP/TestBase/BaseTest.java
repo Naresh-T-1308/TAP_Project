@@ -43,9 +43,11 @@ public class BaseTest {
 		driver.get(config.getProperty("url"));
 	}
 	
+	
 	@AfterSuite
-	public void TearDown()
+	public void TearDown() throws Exception
 	{
+		Thread.sleep(3000); 
 		driver.close();
 	}
 

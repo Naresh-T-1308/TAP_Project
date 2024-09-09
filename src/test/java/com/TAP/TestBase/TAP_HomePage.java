@@ -4,14 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class HomePage extends BaseTest{
+public class TAP_HomePage extends BaseTest{
 
-	public WebDriver wd;
-
-	public HomePage(WebDriver d)
-	{
-		wd=d;
-	}
 
 	public void TAPHomePage(String email, String password)
 	{

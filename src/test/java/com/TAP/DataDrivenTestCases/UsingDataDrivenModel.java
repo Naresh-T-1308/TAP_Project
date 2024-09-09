@@ -12,7 +12,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 
-public class NewTest2 extends BaseTest2 
+public class UsingDataDrivenModel extends BaseTest2 
 {
 
 	@Test(dataProvider = "dp")
@@ -50,4 +50,5 @@ public class NewTest2 extends BaseTest2
 		workbook.close();
 		return mydata;
 	}
+	
 }
