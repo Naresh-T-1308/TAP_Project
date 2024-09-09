@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-09T16:34:47 IST" name="Default suite" finished-at="2024-09-09T16:34:59 IST" duration-ms="11781">
+  <suite started-at="2024-09-09T21:50:05 IST" name="Default suite" finished-at="2024-09-09T21:50:18 IST" duration-ms="12156">
     <groups>
     </groups>
-    <test started-at="2024-09-09T16:34:47 IST" name="Default test" finished-at="2024-09-09T16:34:59 IST" duration-ms="11781">
-      <class name="TestCases.WorkFlowDataPrint">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:TestCases.WorkFlowDataPrint@692f203f]" started-at="2024-09-09T16:34:36 IST" name="BrowserSetup" finished-at="2024-09-09T16:34:47 IST" duration-ms="11196" status="PASS">
+    <test started-at="2024-09-09T21:50:05 IST" name="Default test" finished-at="2024-09-09T21:50:18 IST" duration-ms="12156">
+      <class name="TestCases.DataPrint_in_anyTab">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:TestCases.DataPrint_in_anyTab@4c583ecf]" started-at="2024-09-09T21:49:55 IST" name="BrowserSetup" finished-at="2024-09-09T21:50:05 IST" duration-ms="10710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="Cases()[pri:0, instance:TestCases.WorkFlowDataPrint@692f203f]" started-at="2024-09-09T16:34:47 IST" name="Cases" finished-at="2024-09-09T16:34:59 IST" duration-ms="11541" status="PASS">
+        <test-method signature="Cases()[pri:0, instance:TestCases.DataPrint_in_anyTab@4c583ecf]" started-at="2024-09-09T21:50:06 IST" name="Cases" finished-at="2024-09-09T21:50:17 IST" duration-ms="11942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cases -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.WorkFlowDataPrint@692f203f]" started-at="2024-09-09T16:34:59 IST" name="TearDown" finished-at="2024-09-09T16:35:04 IST" duration-ms="4542" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.DataPrint_in_anyTab@4c583ecf]" started-at="2024-09-09T21:50:18 IST" name="TearDown" finished-at="2024-09-09T21:50:23 IST" duration-ms="5102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- TestCases.WorkFlowDataPrint -->
+      </class> <!-- TestCases.DataPrint_in_anyTab -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
